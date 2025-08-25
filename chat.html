@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tawk.to Chat Test</title>
+  <title>Chat với Lee Store</title>
 </head>
 <body>
-  <h2>Test Chat Tawk.to</h2>
-  <p>Đây là trang test hiển thị khung chat.</p>
+  <h2>Chào mừng bạn đến với Lee Store!</h2>
+  <p>Bạn cần hỗ trợ gì hãy nhắn tin cho shop ngay bên dưới nhé 👇</p>
 
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">
@@ -23,5 +23,12 @@
   </script>
   <!--End of Tawk.to Script-->
 
+  <!-- Tự động mở khung chat khi load trang -->
+  <script>
+    var Tawk_API = Tawk_API || {};
+    Tawk_API.onLoad = function() {
+      Tawk_API.maximize();
+    };
+  </script>
 </body>
 </html>
